@@ -24,27 +24,27 @@
 }
 
 /* Status text */
-.Contact .status .status-text {
+.Contact .status-text {
 	color: #999;
 	margin: 0;
 }
 
 /* Status (rounded&colored indicator) */
-.Contact .status .status-online,
-.Contact .status .status-offline {
+.Contact .status-online,
+.Contact .status-offline {
 	display: inline-block;
 	border-radius: 50%;
-	width: 8px;
-	height: 8px;
+	width: 15px;
+	height: 15px;
 	margin-right: 6px;
 }
 
-.Contact .status .status-online {
+.Contact .status-online {
 	background: #aed581;
 	margin-top: 4px;
 }
 
-.Contact .status .status-offline {
+.Contact .status-offline {
 	background: #f4511e;
 	margin-top: 4px;
 }
